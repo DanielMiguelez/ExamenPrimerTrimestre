@@ -1,4 +1,4 @@
-# Daniel Miguelez Documentación
+# Daniel Miguelez Documentación EJERCICIO 2 - SSH COMANDOS
 
 Ejercicio 2 - SSH + Command line (3 puntos) Documenta todos los pasos realizados en un archivo MarkDown. 
 Accede a la máquina remota (el profesor facilitará la IP) mediante ssh:
@@ -20,6 +20,10 @@ ls
 Descargas  Documentos  Imágenes  Plantillas  snap
 Desktop    Escritorio  Música    Público     Vídeos
 
+2.5. hice cd Desktop y todo el proceso, pero me confundi porque era en Escritorio.
+
+cd Escritorio.
+
 3. Creamos el documento con el comando 
 
 touch DanielMiguelez.txt
@@ -33,6 +37,8 @@ echo "$(whoami)" > DanielMiguelez.txt
 nano DanielMiguelez.txt 
 
 5. Escribo El usuario, y escribo who, para saber quien está conectado.
+
+echo "who" >> DanielMiguelez.txt
 
 ### IMAGENES DEL PROCESO.
 
